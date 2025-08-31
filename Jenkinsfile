@@ -42,7 +42,7 @@ pipeline {
                 """
             }
         }
-        stage('Build') {
+        stage('Build'){
             steps {
                 sh """
                     ls -la
