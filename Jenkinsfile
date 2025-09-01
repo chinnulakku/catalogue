@@ -1,12 +1,12 @@
 pipeline {
-    agent {
-        node {
-            label 'AGENT-1'
+       agent {
+           node {
+               label 'AGENT-1'
         }
     }
     environment {
         packageVersion = ''
-        nexusURL = '172.31.47.128'
+        nexusURL = '172.31.47.128:8081'
     }
 
     options {
