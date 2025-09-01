@@ -52,7 +52,6 @@ pipeline {
                 """
             }
         }
-
         stage('Publish Artifact'){
             steps {
                 nexusArtifactUploader{
