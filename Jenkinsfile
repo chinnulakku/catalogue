@@ -6,7 +6,7 @@ pipeline {
     }
     environment {
         packageVersion = ''
-        nexusURL = '172.31.47.128:8081'
+        nexusURL = '172.31.47.249:8081'
     }
 
     options {
