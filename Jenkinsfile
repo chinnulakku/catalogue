@@ -55,7 +55,7 @@ pipeline {
         stage('Publish Artifact'){
             steps {
                 nexusArtifactUploader{
-                    nexusVersion: 'nexus3',
+                    nexusVersion: nexus3
                     protocol: 'http',
                     nexusUrl: "${nexusURL}",
                     groupId: 'com.roboshop',
